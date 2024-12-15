@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h2>Your favorite joke has been updated!</h2>
+    <h2>Your new favorite joke:</h2>
+    <p><%= fav_joke %></p>
+    <form action="/save-user" method="POST">
+        <input type="hidden" name="email" value="<%= email %>">
+        <input type="hidden" name="fav_joke" value="<%= fav_joke %>">
+        <button type="submit">Generate New Joke</button>
+    </form>
+    <form action="/" method="GET">
+        <button type="submit">Back to Login</button>
+    </form>
+</body>
+</html>

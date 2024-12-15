@@ -1,0 +1,36 @@
+body {
+    border: 5px solid blue; /* Green border with a thickness of 5px */
+    margin: 10px;             /* Add some space outside the border */
+    padding: 10px;            /* Add some space inside the border */
+    border-radius: 10px;      /* Optional: Round the corners */
+    background-color: #f9f9f9; /* Optional: Light background color */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
